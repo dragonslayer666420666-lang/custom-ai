@@ -1,0 +1,22 @@
+runtime: nodejs20
+
+env_variables:
+  # === TEXT CHAT ===
+  # API_KEY: "your-text-api-key"
+  # API_BASE_URL: "https://api.openai.com/v1"
+  # AI_MODEL: "gpt-4.1-mini"
+  #
+  # === IMAGE GENERATION ===
+  # IMAGE_API_KEY: "your-image-api-key"
+  # IMAGE_API_BASE_URL: "https://api.openai.com/v1"
+  # IMAGE_API_FORMAT: "openai"   # or "sdi" for Stable Diffusion WebUI
+  # IMAGE_MODEL: "dall-e-3"
+  #
+  # === VIDEO GENERATION ===
+  # VIDEO_API_KEY: "your-video-api-key"
+  # VIDEO_API_BASE_URL: "https://your-video-api.com"
+  # VIDEO_MODEL: "your-model"
+
+automatic_scaling:
+  min_instances: 0
+  max_instances: 1
